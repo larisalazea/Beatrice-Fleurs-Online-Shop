@@ -1,0 +1,269 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Beatrice Fleurs</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Online flower box shop" />
+	<meta name="keywords" content="flower box fowerbox gift luxury brand roses flowers boxes valentines surprise" />
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"> -->
+	<!-- <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i" rel="stylesheet"> -->
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+
+	<!-- Owl Carousel  -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+		
+	<div class="fh5co-loader"></div>
+	
+	<div id="page">
+	<nav class="fh5co-nav" role="navigation">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-xs-2">
+					<div class="header">
+					<div id="fh5co-logo"><a href="index.html"> <img src="images/logo3.jpg" alt="logo" /></a></div>
+				</div>
+				</div>
+				<div class="col-md-6 col-xs-6 text-center menu-1">
+					<ul>
+						<li class="has-dropdown">
+							<a href="about.html">About</a>
+						</li>
+						<li class="has-dropdown">
+							<a href="product.html">Shop</a>
+						</li>
+						<li class="has-dropdown">
+							<a href="bears.html">Teddy Bears</a>
+						</li>
+						<li><a href="map.html">Shop-Map</a></li>
+						<li class="has-dropdown">
+							<a href="personalize.html">Personalize</a>
+						</li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 col-xs-4 text-right hidden-xs menu-2">
+					<ul>
+						<li class="search">
+							<div class="input-group">
+						      <input type="text" placeholder="Search..">
+						      <span class="input-group-btn">
+						        <button class="btn btn-primary" type="button"><i class="icon-search"></i></button>
+						      </span>
+						    </div>
+						</li>
+						<li class="shopping-cart"><a href="#" class="cart"><span><small>0</small><i class="icon-shopping-cart"></i></span></a></li>
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+	</nav>
+
+	<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/fleursdeparis.jpg);">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="display-t">
+						<div class="display-tc animate-box" data-animate-effect="fadeIn">
+							<h1>Personalize</h1>
+							<h2>Design your own flower box </h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	</div>
+		<form action="personalize.php" method="POST" >
+			<div class="form-group" style="text-align:center; font-size:200%;" >
+			  <label>Select box type</label> <br/>
+			  <select id="dropdown" name="boxtype" class="form-control" >
+				<option disabled selected value>Select</option>
+				<option value="round">Round box</option>
+				<option value="square">Square box</option>
+				<option value="heart">Heart shaped box</option>
+			  </select>
+			</div>
+			<div class="form-group" style="text-align:center; font-size:150%;">
+			  <p>Select size</p>
+			  <label>
+				<input
+				  name="size"
+				  value="small"
+				  type="radio"
+				  class="input-radio"
+				  checked
+				/>Small</label>
+			  <label>
+				<input
+				  name="size"
+				  value="medium"
+				  type="radio"
+				  class="input-radio"
+				/>Medium</label
+			  >
+
+			  <label
+				><input
+				  name="size"
+				  value="large"
+				  type="radio"
+				  class="input-radio"
+				/>Large</label
+			  >
+			</div>
+			
+
+			 <div class="form-group" style="text-align:center; font-size:150%;">
+			  <p>Select color for roses</p>
+			  <select id="colorroses" name="colorroses" class="form-control">
+				<option disabled selected value>Select</option>
+				<option value="Red">Red</option>
+				<option value="Pink">Pink</option>
+				<option value="Black">Black</option>
+				<option value="White">White</option>
+				<option value="Cream">Cream</option>
+				<option value="Blue">Blue</option>
+				<option value="PalePink">Pale Pink</option>
+			  </select>
+			</div>
+			
+			<div class="form-group" style="text-align:center; font-size:150%;">
+			  <p>Select color for the box</p>
+			  <select id="colorbox" name="colorbox" class="form-control">
+				<option disabled selected value>Select</option>
+				<option value="Red">Red</option>
+				<option value="Pink">Pink</option>
+				<option value="Black">Black</option>
+				<option value="White">White</option>
+			  </select>
+			</div>
+
+		  <div class="form-group" style="text-align:center; font-size:150%;">
+			<label for="card">Add a greeting card</label> <br/>
+			  <textarea
+				id="card"
+				class="input-textarea"
+				name="card"
+				placeholder="Enter your message here"
+			  ></textarea>
+			</div>
+
+			<div class="form-group" style="text-align:center; font-size:200%;">
+			  <button type="submit" id="submit" class="submit-button">
+				Submit
+			  </button>
+			</div>
+		</form>
+	</div>
+	
+	
+	<footer id="fh5co-footer" role="contentinfo">
+		<div class="container">
+			<div class="row row-pb-md">
+				<div class="col-md-4 fh5co-widget">
+					<h3>Beatrice Fleurs</h3>
+					<p>Luxury gifting brand</p>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
+					<ul class="fh5co-footer-links">
+						<li><a href="http://localhost/beatricefleurs/about.html">About</a></li>
+						<li><a href="http://localhost/beatricefleurs/contact.html">Contact</a></li>	
+					</ul>
+				</div>
+
+				<div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
+					<ul class="fh5co-footer-links">
+						<li><a href="http://localhost/beatricefleurs/product.html">Shop</a></li>
+						<li><a href="http://localhost/beatricefleurs/personalize.html">Personalize</a></li>
+					</ul>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
+					<ul class="fh5co-footer-links">
+						<li><a href="http://localhost/beatricefleurs/bears.html">Teddy Bears</a></li>
+						<li><a href="http://localhost/beatricefleurs/map.html">Map</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="row copyright">
+				<div class="col-md-12 text-center">
+					<p>
+						<small class="block">&copy; 2021 Beatrice Fleurs All Rights Reserved.</small> 
+						<small class="block">Designed by Larisa Lazea </small>
+					</p>
+					<p>
+						<ul class="fh5co-social-icons">
+							<li><a target="_blank" href="https://www.facebook.com/beatrice.beatis"><i class="icon-facebook"></i></a></li>
+							<li><a target="_blank" href="https://www.instagram.com/beatrice.fleurs.hd/"><i class="icon-instagram"></i></a></li>
+						</ul>
+					</p>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- countTo -->
+	<script src="js/jquery.countTo.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+
+
